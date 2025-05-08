@@ -29,13 +29,13 @@ This section guides developers through setting up email notifications and templa
 2. For each notification type (e.g., Welcome Email, Password Reset, Notification Alert):
    - Select the template to edit or create a new one.
    - Use the provided template editor to customize the email content.
-   - Incorporate placeholders or variables (e.g., {{UserName}}, {{ResetLink}}) to dynamically insert user-specific data.
+   - Incorporate placeholders or variables (e.g., `{{UserName}}`, `{{ResetLink}}`) to dynamically insert user-specific data.
 3. Preview the email template to verify layout and content.
 4. Save each template after editing.
 
 *Example:*  
 ```html
-<h1>Welcome, {{UserName}}!</h1>
+<h1>Welcome, `{{UserName}}`!</h1>
 <p>Thank you for registering. Please verify your email by clicking <a href="{{VerificationLink}}">here</a>.</p>
 ```
 

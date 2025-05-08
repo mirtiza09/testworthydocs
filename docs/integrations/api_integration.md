@@ -49,39 +49,39 @@ https://api.testworthy.com/v1/
 
 - **GET /projects**: Retrieve list of projects.
 - **POST /projects**: Create a new project.
-- **GET /projects/{id}**: Get details of a specific project.
-- **PUT /projects/{id}**: Update project information.
-- **DELETE /projects/{id}**: Remove a project.
+- **GET /projects/`{id}`**: Get details of a specific project.
+- **PUT /projects/`{id}`**: Update project information.
+- **DELETE /projects/`{id}`**: Remove a project.
 
 ### Test Cases
 
-- **GET /projects/{projectId}/cases**: List test cases within a project.
-- **POST /projects/{projectId}/cases**: Create a new test case.
-- **GET /cases/{caseId}**: Retrieve details of a test case.
-- **PUT /cases/{caseId}**: Update test case details.
-- **DELETE /cases/{caseId}**: Delete a test case.
+- **GET /projects/`{projectId}`/cases**: List test cases within a project.
+- **POST /projects/`{projectId}`/cases**: Create a new test case.
+- **GET /cases/`{caseId}`**: Retrieve details of a test case.
+- **PUT /cases/`{caseId}`**: Update test case details.
+- **DELETE /cases/`{caseId}`**: Delete a test case.
 
 ### Test Runs
 
-- **GET /projects/{projectId}/runs**: List test runs.
-- **POST /projects/{projectId}/runs**: Create a new test run.
-- **GET /runs/{runId}**: Get details of a test run.
-- **PUT /runs/{runId}**: Update test run status or details.
-- **DELETE /runs/{runId}**: Remove a test run.
+- **GET /projects/`{projectId}`/runs**: List test runs.
+- **POST /projects/`{projectId}`/runs**: Create a new test run.
+- **GET /runs/`{runId}`**: Get details of a test run.
+- **PUT /runs/`{runId}`**: Update test run status or details.
+- **DELETE /runs/`{runId}`**: Remove a test run.
 
 ### Test Results & Reports
 
-- **GET /projects/{projectId}/results**: Fetch test results.
+- **GET /projects/`{projectId}`/results**: Fetch test results.
 - **POST /results**: Submit test results.
-- **GET /reports/{reportId}**: Download or view report.
+- **GET /reports/`{reportId}`**: Download or view report.
 
 ### Users & Permissions
 
 - **GET /users**: List users.
 - **POST /users**: Create a user.
-- **GET /users/{userId}**: Get user details.
-- **PUT /users/{userId}**: Update user info.
-- **DELETE /users/{userId}**: Remove user.
+- **GET /users/`{userId}`**: Get user details.
+- **PUT /users/`{userId}`**: Update user info.
+- **DELETE /users/`{userId}`**: Remove user.
 
 ### External Integrations
 
